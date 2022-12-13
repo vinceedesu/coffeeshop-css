@@ -2,20 +2,22 @@
     
     font-family: 'Verdana';
     background-color: var(--bgcolor);
-    color: 33000;
+    color: #330000;
 }
 
 :root{
     --bgcolor:#ffffcc;
     --logocolor:#ccaa66;
-
+    --leftColor:#e8d882;
+    --rightColor:#f1e8b0;
 }
 
 #container{
-    margin-top: 20px;
+    margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
     border-style: solid;
+    border-top-style: none;
     height: 480px;
     width: 750px;
     padding: 0;
@@ -28,10 +30,67 @@
     border-top-style: solid;
     height: 80px;
     margin: 0;    
-
 }
 
+#logo h1{
+    background-color: var(--logocolor);
+}
 
+#leftColumn{
+    background-color:var(--leftColor);
+    position: relative;
+    padding-left: 20px;
+    left: 0px;
+    width: 130px;
+    height: 320px;
+    float: left;
+    white-space: pre-line;
+}
+
+#leftColumn a{
+    background-color: var(--leftColor);
+    text-decoration: none;
+}
+
+#rightColumn{
+    background-color: var(--rightColor);
+    position: relative;
+    width: 580px;
+    height: 300px;
+    padding: 10px;
+    float: right;
+}
+
+#rightColumn p, #rightColumn ul, #rightColumn li{
+    background-color: var(--rightColor);
+}
+
+#navBar{
+    text-align: left;
+}
+.navBar{
+    text-align: left;
+}
+
+#CoffeePic{
+    position: absolute;
+        right: 20px;
+}
+
+#footer{
+    background-color: var(--logocolor);
+    border-top-style: solid;
+    height: 62px;
+    text-align: center;
+    width: 750px;
+    font-style: italic;
+    margin-top: 320px;
+    padding-top: 10px;
+}
+
+#footer a{
+    background-color: var(--logocolor);
+}
 
 
 
