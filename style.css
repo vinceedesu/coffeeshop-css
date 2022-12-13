@@ -1,6 +1,37 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial';
+    
+    font-family: 'Verdana';
+    background-color: var(--bgcolor);
+    color: 33000;
 }
+
+:root{
+    --bgcolor:#ffffcc;
+    --logocolor:#ccaa66;
+
+}
+
+#container{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    height: 480px;
+    width: 750px;
+    padding: 0;
+}
+
+#logo{
+    background-color: var(--logocolor);
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    height: 80px;
+    margin: 0;    
+
+}
+
+
+
+
 
